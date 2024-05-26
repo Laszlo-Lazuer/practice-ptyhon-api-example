@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "0362c111-edf9-440d-ba43-e5f2300d2332",
+		"name": "Flask - Python API Exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4030134",
+		"_collection_link": "https://warped-rocket-287461.postman.co/workspace/AWS-S3~231cfc30-e8b4-4865-87a1-9d8e4a5134fc/collection/4030134-0362c111-edf9-440d-ba43-e5f2300d2332?action=share&source=collection_link&creator=4030134"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Tim\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/create-user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"create-user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
